@@ -113,7 +113,7 @@ def filtrar_text(update, context):
                     except:
                         rango_min = "2080"
                         rango_max = "2085"
-                        ip = "181.225.253.188"
+                        ip = "161.8.174.48"
                     try:id_msg = int(update.message.message_id) + 1
                     except Exception as ex:bot.sendMessage(update.message.chat.id,ex)
                     msg_start = '🛰 Buscando Proxy!!\n\n⏳ Por favor espere .....'
