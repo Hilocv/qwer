@@ -111,8 +111,8 @@ def filtrar_text(update, context):
                             rango_min = getUser['rango_minimo']
                             rango_max = getUser['rango_maximo']
                     except:
-                        rango_min = "2080"
-                        rango_max = "2085"
+                        rango_min = "100"
+                        rango_max = "10000"
                         ip = "161.8.174.48"
                     try:id_msg = int(update.message.message_id) + 1
                     except Exception as ex:bot.sendMessage(update.message.chat.id,ex)
